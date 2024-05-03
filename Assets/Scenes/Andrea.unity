@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.19845125, g: 0.22821528, b: 0.277808, a: 1}
+  m_IndirectSpecularColor: {r: 0.19619739, g: 0.22775483, b: 0.27740872, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7816,17 +7816,17 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 2147484599
+    m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.9999999, y: 0.9412381, z: 18.091488}
-  m_Center: {x: -0.00000006599, y: -0.02938089, z: 8.545767}
+  m_Size: {x: 0.9999999, y: 1, z: 7.720503}
+  m_Center: {x: -0.000000025936902, y: -0.0000000013545768, z: 3.3602562}
 --- !u!23 &461606611
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10196,7 +10196,7 @@ GameObject:
   - component: {fileID: 814528385}
   - component: {fileID: 814528390}
   - component: {fileID: 814528389}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10790,7 +10790,7 @@ GameObject:
   - component: {fileID: 863922536}
   - component: {fileID: 863922541}
   - component: {fileID: 863922540}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11525,7 +11525,7 @@ GameObject:
   - component: {fileID: 936675567}
   - component: {fileID: 936675572}
   - component: {fileID: 936675571}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24345,7 +24345,7 @@ GameObject:
   - component: {fileID: 1938060252}
   - component: {fileID: 1938060257}
   - component: {fileID: 1938060256}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
