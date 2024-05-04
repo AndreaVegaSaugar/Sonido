@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class DeadZone : MonoBehaviour
 {
-    private void OnTriggerEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        InitialPos objIniScript = collision.gameObject.GetComponent<InitialPos>();
+        InitialPos objIniScript = other.gameObject.GetComponent<InitialPos>();
         
         if (objIniScript != null)
         {
-            collision.transform.SetPositionAndRotation(objIniScript.getPosition(), objIniScript.getRotation());
-            collision.rigidbody.velocity = new Vector3(0, 0, 0);
+            other.transform.SetPositionAndRotation(objIniScript.getPosition(), objIniScript.getRotation());
+            other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
     }
+
 }

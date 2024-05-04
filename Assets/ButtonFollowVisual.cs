@@ -24,10 +24,6 @@ public class ButtonFollowVisual : MonoBehaviour
     {
         initialLocalPos = visualTarget.localPosition;
         interactable = GetComponent<XRBaseInteractable>();
-        interactable.hoverEntered.AddListener(ChangeColors);
-        interactable.hoverExited.AddListener(ChangeColors);
-        interactable.selectEntered.AddListener(ChangeColors);
-        
     }
 
     public void Reset(BaseInteractionEventArgs hover)
@@ -41,27 +37,34 @@ public class ButtonFollowVisual : MonoBehaviour
 
     public void ChangeColors(BaseInteractionEventArgs hover)
     {
-        if (hover.interactable is XRPokeInteractor)
+       
+        switch (_idButton)
         {
-            Debug.Log("Buenas");
-            switch (_idButton)
-            {
-                case 0:
-                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Deuteranopia");
-                    break;
-                case 1:
-                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Protanopia");
-                    break;
-                case 2:
-                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Tritanopia");
-                    break;
-                case 3:
-                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Acro");
-                    break;
-                case 4:
-                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("Nothing");
-                    break;
-            }
+            case 0:
+                {
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.GetMask("PostP_Deuteranopia");
+                }
+                break;
+            case 1:
+                {
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.GetMask("PostP_Protanopia");
+                }
+                break;
+            case 2:
+                {
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.GetMask("PostP_Tritanopia");
+                }
+                break;
+            case 3:
+                {
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.GetMask("PostP_Acro");
+                }
+                break;
+            case 4:
+                {
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.GetMask("Default");
+                }
+                break;
         }
     }
     public void Freeze(BaseInteractionEventArgs hover)
