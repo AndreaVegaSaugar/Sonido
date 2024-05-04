@@ -23,8 +23,8 @@ public class Colocado : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!colocado)
-        {
+        //if (!colocado)
+        //{
             switch (color)
             {
                 case "Amarillo":
@@ -47,13 +47,13 @@ public class Colocado : MonoBehaviour
                         enableColocado(true);
                     break;
             }
-        }
+       // }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (colocado)
-        {
+        //if (colocado)
+        //{
 
             switch (color)
             {
@@ -77,7 +77,7 @@ public class Colocado : MonoBehaviour
                         enableColocado(false);
                     break;
             }
-        }
+       // }
     }
 
 
