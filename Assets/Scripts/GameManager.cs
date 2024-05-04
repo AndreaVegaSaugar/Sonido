@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     // VARIABLES
 
-    string playerName = "Denica";
+    public string playerName = "Denica";
 
     // Aula 2
     int objetosColocados = 0;

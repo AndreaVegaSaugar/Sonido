@@ -42,7 +42,7 @@ public class showKeyBoard : MonoBehaviour
         SetCaretColorAlpha(0);
         NonNativeKeyboard.Instance.OnClosed -= Instance_OnClosed;
 
-        Debug.Log(inputField.text)
+        GameManager.Instance.playerName = inputField.text;
 ;    }
 
     public void SetCaretColorAlpha(float value)
