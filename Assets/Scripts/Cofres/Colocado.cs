@@ -23,53 +23,60 @@ public class Colocado : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        switch (color)
+        if (!colocado)
         {
-            case "Amarillo":
-                if (esAmarillo(other))
-                    enableColocado(true);
-                break;
+            switch (color)
+            {
+                case "Amarillo":
+                    if (esAmarillo(other))
+                        enableColocado(true);
+                    break;
 
-            case "Azul":
-                if (esAzul(other))
-                    enableColocado(true);
-                break;
+                case "Azul":
+                    if (esAzul(other))
+                        enableColocado(true);
+                    break;
 
-            case "Rojo":
-                if (esRojo(other))
-                    enableColocado(true);
-                break;
+                case "Rojo":
+                    if (esRojo(other))
+                        enableColocado(true);
+                    break;
 
-            case "Verde":
-                if (esVerde(other))
-                    enableColocado(true);
-                break;
+                case "Verde":
+                    if (esVerde(other))
+                        enableColocado(true);
+                    break;
+            }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        switch (color)
+        if (colocado)
         {
-            case "Amarillo":
-                if (esAmarillo(other))
-                    enableColocado(false);
-                break;
 
-            case "Azul":
-                if (esAzul(other))
-                    enableColocado(false);
-                break;
+            switch (color)
+            {
+                case "Amarillo":
+                    if (esAmarillo(other))
+                        enableColocado(false);
+                    break;
 
-            case "Rojo":
-                if (esRojo(other))
-                    enableColocado(false);
-                break;
+                case "Azul":
+                    if (esAzul(other))
+                        enableColocado(false);
+                    break;
 
-            case "Verde":
-                if (esVerde(other))
-                    enableColocado(false);
-                break;
+                case "Rojo":
+                    if (esRojo(other))
+                        enableColocado(false);
+                    break;
+
+                case "Verde":
+                    if (esVerde(other))
+                        enableColocado(false);
+                    break;
+            }
         }
     }
 
@@ -104,5 +111,15 @@ public class Colocado : MonoBehaviour
     bool esVerde(Collider colObj)
     {
         return colObj.GetComponent<Verde>() != null;
+    }
+
+    void sumaObjetoColocado()
+    {
+        GameManager.Instance.sumaObjeto();
+    }
+
+    void restaObjetoColocado()
+    {
+        GameManager.Instance.restaObjeto();
     }
 }
