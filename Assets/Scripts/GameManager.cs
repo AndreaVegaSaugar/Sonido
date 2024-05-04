@@ -1,5 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -16,6 +19,8 @@ public class GameManager : MonoBehaviour
 
     // VARIABLES
 
+    string playerName = "Denica";
+
     // Aula 2
     int objetosColocados = 0;
     bool sala2Completada = false;
@@ -25,6 +30,16 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     GameObject bloqueoPuerta2;
+
+    // Aula 1
+    [SerializeField]
+    TextMeshProUGUI TextoAula1;
+    [SerializeField]
+    TextMeshProUGUI TextoAula2;
+
+    string[] colores = { "Rojo", "Azul", "Amarillo", "Verde" };
+    string colorTaquilla = "Rojo";
+
 
 
     // METODOS
@@ -43,12 +58,12 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(objetosColocados);
+        //Debug.Log(objetosColocados);
     }
 
 
 
-    // Publico
+    // Aula 2
     public void sumaObjeto()
     {
         objetosColocados++;
@@ -67,4 +82,15 @@ public class GameManager : MonoBehaviour
         objetosColocados--;
     }
 
+    // Aula 1
+
+    public void StartAula1()
+    {
+        TextoAula1.text = "Cada uno tiene que poner sus cosas en la taquilla de su color. " + playerName + ", tu taquilla es la roja, ve a guardar tus cosas.";
+    }
+
+    public void StartAula2()
+    {
+        TextoAula2.text = "La sala de juegos esta hecha un desaste. " + playerName + ", guarda cada juguete en el cofre de su color.";
+    }
 }

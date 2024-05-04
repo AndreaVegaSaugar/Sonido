@@ -24,8 +24,8 @@ public class ButtonFollowVisual : MonoBehaviour
     {
         initialLocalPos = visualTarget.localPosition;
         interactable = GetComponent<XRBaseInteractable>();
-        interactable.hoverEntered.AddListener(Follow);
-        interactable.hoverExited.AddListener(Reset);
+        interactable.hoverEntered.AddListener(ChangeColors);
+        interactable.hoverExited.AddListener(ChangeColors);
         interactable.selectEntered.AddListener(ChangeColors);
         
     }
