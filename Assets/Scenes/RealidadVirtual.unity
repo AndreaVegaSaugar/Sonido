@@ -1475,6 +1475,7 @@ GameObject:
   - component: {fileID: 104294852}
   - component: {fileID: 104294851}
   - component: {fileID: 104294857}
+  - component: {fileID: 104294858}
   m_Layer: 0
   m_Name: SphereAzul
   m_TagString: Untagged
@@ -1757,6 +1758,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84980a21eaac49e4d863524a7a0c074c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &104294858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104294850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &105393137
@@ -20972,6 +20985,7 @@ GameObject:
   - component: {fileID: 675143145}
   - component: {fileID: 675143144}
   - component: {fileID: 675143150}
+  - component: {fileID: 675143151}
   m_Layer: 0
   m_Name: CylinderVerde
   m_TagString: Untagged
@@ -21256,6 +21270,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cfd8f12bd639c54e983a96ea4cd465a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &675143151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675143143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &677611741
@@ -22593,6 +22619,7 @@ GameObject:
   - component: {fileID: 771554248}
   - component: {fileID: 771554247}
   - component: {fileID: 771554253}
+  - component: {fileID: 771554254}
   m_Layer: 0
   m_Name: CylinderRojo
   m_TagString: Untagged
@@ -22877,6 +22904,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f312ba7a2171a174b9a47c4b0843b207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &771554254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771554246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &775926299
@@ -23985,6 +24024,7 @@ GameObject:
   - component: {fileID: 814528390}
   - component: {fileID: 814528389}
   - component: {fileID: 814528391}
+  - component: {fileID: 814528392}
   m_Layer: 0
   m_Name: CubeAzul
   m_TagString: Untagged
@@ -24267,6 +24307,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84980a21eaac49e4d863524a7a0c074c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &814528392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814528384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &816578589
@@ -25178,6 +25230,7 @@ GameObject:
   - component: {fileID: 863922541}
   - component: {fileID: 863922540}
   - component: {fileID: 863922542}
+  - component: {fileID: 863922543}
   m_Layer: 0
   m_Name: CubeVerde
   m_TagString: Untagged
@@ -25460,6 +25513,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cfd8f12bd639c54e983a96ea4cd465a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &863922543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863922535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &873260928
@@ -27618,6 +27683,7 @@ GameObject:
   - component: {fileID: 936675572}
   - component: {fileID: 936675571}
   - component: {fileID: 936675573}
+  - component: {fileID: 936675574}
   m_Layer: 0
   m_Name: CubeAmarillo
   m_TagString: Untagged
@@ -27900,6 +27966,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c61b29fc621bcd4b8a7f7facc55889c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &936675574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936675566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &940639778 stripped
@@ -30184,6 +30262,7 @@ GameObject:
   - component: {fileID: 1047587908}
   - component: {fileID: 1047587907}
   - component: {fileID: 1047587913}
+  - component: {fileID: 1047587914}
   m_Layer: 0
   m_Name: CylinderAzul
   m_TagString: Untagged
@@ -30468,6 +30547,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84980a21eaac49e4d863524a7a0c074c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1047587914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047587906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1049109874
@@ -33154,6 +33245,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3581788051711781632, guid: 20defdf087831834e9fe91491e024973, type: 3}
   m_PrefabInstance: {fileID: 1176341654}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1189457183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1189457184}
+  - component: {fileID: 1189457185}
+  - component: {fileID: 1189457186}
+  m_Layer: 0
+  m_Name: DeadZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1189457184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189457183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.42, y: -1, z: 0}
+  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1189457185
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189457183}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1189457186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189457183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267a930c3a1db6a43bcd4b1e4cc544c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1196674657
 GameObject:
   m_ObjectHideFlags: 0
@@ -43964,6 +44121,7 @@ GameObject:
   - component: {fileID: 1478611250}
   - component: {fileID: 1478611249}
   - component: {fileID: 1478611255}
+  - component: {fileID: 1478611256}
   m_Layer: 0
   m_Name: SphereVerde
   m_TagString: Untagged
@@ -44246,6 +44404,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cfd8f12bd639c54e983a96ea4cd465a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1478611256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478611248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1481800380
@@ -47940,6 +48110,7 @@ GameObject:
   - component: {fileID: 1629862136}
   - component: {fileID: 1629862135}
   - component: {fileID: 1629862141}
+  - component: {fileID: 1629862142}
   m_Layer: 0
   m_Name: SphereAmarillo
   m_TagString: Untagged
@@ -48224,6 +48395,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c61b29fc621bcd4b8a7f7facc55889c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1629862142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629862134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1632329130
 GameObject:
   m_ObjectHideFlags: 0
@@ -48344,6 +48527,7 @@ GameObject:
   - component: {fileID: 1639865609}
   - component: {fileID: 1639865608}
   - component: {fileID: 1639865614}
+  - component: {fileID: 1639865615}
   m_Layer: 0
   m_Name: SphereRojo
   m_TagString: Untagged
@@ -48626,6 +48810,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f312ba7a2171a174b9a47c4b0843b207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1639865615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639865607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1640995279
@@ -51081,6 +51277,7 @@ GameObject:
   - component: {fileID: 1758703189}
   - component: {fileID: 1758703188}
   - component: {fileID: 1758703194}
+  - component: {fileID: 1758703195}
   m_Layer: 0
   m_Name: CylinderAmarillo
   m_TagString: Untagged
@@ -51365,6 +51562,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c61b29fc621bcd4b8a7f7facc55889c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1758703195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758703187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1761231556
@@ -56122,6 +56331,7 @@ GameObject:
   - component: {fileID: 1938060257}
   - component: {fileID: 1938060256}
   - component: {fileID: 1938060258}
+  - component: {fileID: 1938060259}
   m_Layer: 0
   m_Name: CubeRojo
   m_TagString: Untagged
@@ -56404,6 +56614,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f312ba7a2171a174b9a47c4b0843b207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1938060259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938060251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594c5381c3bbe348990778a9ef2c400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1938229211
@@ -61236,3 +61458,4 @@ SceneRoots:
   - {fileID: 537613848}
   - {fileID: 1591377956}
   - {fileID: 925507535}
+  - {fileID: 1189457184}
