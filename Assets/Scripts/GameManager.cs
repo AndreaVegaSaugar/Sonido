@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        numObjetosAula2 = numObjetosAula2 * 3; // 3 es el num de objetos de cada cofre
     }
 
     // Update is called once per frame
