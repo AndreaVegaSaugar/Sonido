@@ -671,6 +671,7 @@ GameObject:
   - component: {fileID: 233327191}
   - component: {fileID: 233327190}
   - component: {fileID: 233327189}
+  - component: {fileID: 233327192}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -861,6 +862,22 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &233327192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233327187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3ecd3ccfcab8940b424e7e18445240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c0c61c674c2ab484cade8ff2328d697f, type: 2}
+  daltonismShader: {fileID: 4800000, guid: 2f6a399bc5b7e8945b515f1bea01c6ff, type: 3}
+  daltonismType: 1
+  intensity: 0.5
 --- !u!1 &296890052
 GameObject:
   m_ObjectHideFlags: 0
