@@ -88,8 +88,14 @@ public class Colocado : MonoBehaviour
         colocado = enable;
 
         if (enable)
+        {
+            sumaObjetoColocado();
             Debug.Log("Colocado");
+        }
         else
+        {
+            restaObjetoColocado();
+        }
             Debug.Log("NOO");
     }
 

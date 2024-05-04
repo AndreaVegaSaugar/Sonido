@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DesactivaPuerta : MonoBehaviour
 {
+    [SerializeField]
+    GameObject puerta;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,11 @@ public class DesactivaPuerta : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponent<CharacterController>())
+            puerta.GetComponent<Collider>().enabled = true;
     }
 }

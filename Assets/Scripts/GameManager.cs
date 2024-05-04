@@ -57,7 +57,8 @@ public class GameManager : MonoBehaviour
             sala2Completada = true;
             Debug.Log("Sala 2 Completada");
 
-            // Desacctivo Bloqueo Puerta
+            // Desactivo Bloqueo Puerta
+            bloqueoPuerta2.SetActive(false);
         }
     }
 
