@@ -3689,7 +3689,7 @@ MonoBehaviour:
   localAxis: {x: 0, y: -1, z: 0}
   resetSpeed: 5
   followAngle: 45
-  cam: {fileID: 0}
+  cam: {fileID: 644145113}
   _idButton: 3
 --- !u!23 &168704748
 MeshRenderer:
@@ -20962,7 +20962,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 644145110}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
@@ -33721,7 +33721,7 @@ MonoBehaviour:
   localAxis: {x: 0, y: -1, z: 0}
   resetSpeed: 5
   followAngle: 45
-  cam: {fileID: 0}
+  cam: {fileID: 644145113}
   _idButton: 0
 --- !u!23 &1141183590
 MeshRenderer:
@@ -45440,7 +45440,7 @@ MonoBehaviour:
   localAxis: {x: 0, y: -1, z: 0}
   resetSpeed: 5
   followAngle: 45
-  cam: {fileID: 0}
+  cam: {fileID: 644145113}
   _idButton: 1
 --- !u!23 &1442692606
 MeshRenderer:
@@ -53812,7 +53812,7 @@ MonoBehaviour:
   localAxis: {x: 0, y: -1, z: 0}
   resetSpeed: 5
   followAngle: 45
-  cam: {fileID: 0}
+  cam: {fileID: 644145113}
   _idButton: 4
 --- !u!23 &1755137394
 MeshRenderer:
@@ -58461,7 +58461,7 @@ MonoBehaviour:
   localAxis: {x: 0, y: -1, z: 0}
   resetSpeed: 5
   followAngle: 45
-  cam: {fileID: 0}
+  cam: {fileID: 644145113}
   _idButton: 2
 --- !u!23 &1875773636
 MeshRenderer:
