@@ -5876,10 +5876,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Daltonismo
+  m_text: "El daltonismo es una condici\xF3n de visi\xF3n gen\xE9tico y hereditario
+    que hace ver los colores de manera diferente a la mayor\xEDa.\n\nHay distintos
+    tipos de daltonismo. El m\xE1s com\xFAn, Deuteranomal\xEDa, dificulta distinguir
+    entre el color rojo y el verde.\n\nTambien existen la protanomal\xEDa, protanopia,
+    deuteranopia, tritanomal\xEDa, tritanopia y daltonismo completo."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 60a70a01b4255a140919a78ab4d07b18, type: 2}
+  m_sharedMaterial: {fileID: 5293460647393423753, guid: 60a70a01b4255a140919a78ab4d07b18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5903,14 +5907,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2
-  m_fontSizeBase: 2
+  m_fontSize: 1.5
+  m_fontSizeBase: 1.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -5939,7 +5943,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -0.14332008, z: 18.122225, w: 2.2097478}
+  m_margin: {x: 0.02866745, y: -0.14332008, z: 18.1522, w: 2.2097478}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -5968,7 +5972,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 5293460647393423753, guid: 60a70a01b4255a140919a78ab4d07b18, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8031,8 +8035,8 @@ Transform:
   m_GameObject: {fileID: 799048666}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6099985, y: 7.6101, z: 14.8384}
-  m_LocalScale: {x: 0.0054398, y: 1.8731862, z: 4.438499}
+  m_LocalPosition: {x: -3.6099985, y: 7.72, z: 14.8384}
+  m_LocalScale: {x: 0.0054398, y: 2.3259354, z: 4.438499}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 282525466}
@@ -8078,7 +8082,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 824eade52679d7d4a90f122116b4368e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
