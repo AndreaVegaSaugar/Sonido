@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-
+using UnityEngine.Rendering.PostProcessing;
 public class ButtonFollowVisual : MonoBehaviour
 {
     public Transform visualTarget;
     public Vector3 localAxis;
     public float resetSpeed = 5.0f;
     public float followAngle = 45;
+    public Camera cam;
+    public float _idButton = 0;
     private bool freeze = false;
 
     private Vector3 offset;
@@ -24,7 +26,8 @@ public class ButtonFollowVisual : MonoBehaviour
         interactable = GetComponent<XRBaseInteractable>();
         interactable.hoverEntered.AddListener(Follow);
         interactable.hoverExited.AddListener(Reset);
-        interactable.selectEntered.AddListener(Freeze);
+        interactable.selectEntered.AddListener(ChangeColors);
+        
     }
 
     public void Reset(BaseInteractionEventArgs hover)
@@ -36,6 +39,31 @@ public class ButtonFollowVisual : MonoBehaviour
         }
     }
 
+    public void ChangeColors(BaseInteractionEventArgs hover)
+    {
+        if (hover.interactable is XRPokeInteractor)
+        {
+            Debug.Log("Buenas");
+            switch (_idButton)
+            {
+                case 0:
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Deuteranopia");
+                    break;
+                case 1:
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Protanopia");
+                    break;
+                case 2:
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Tritanopia");
+                    break;
+                case 3:
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("PostP_Acro");
+                    break;
+                case 4:
+                    cam.GetComponent<PostProcessLayer>().volumeLayer = LayerMask.NameToLayer("Nothing");
+                    break;
+            }
+        }
+    }
     public void Freeze(BaseInteractionEventArgs hover)
     {
         if (hover.interactable is XRPokeInteractor)
