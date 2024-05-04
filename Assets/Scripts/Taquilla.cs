@@ -8,7 +8,7 @@ public class Taquilla : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        if (other.tag == "player")
+        if (other.tag == "Player")
         {
             Debug.Log("NOOOOOOO EL DALTONICO");
         }
