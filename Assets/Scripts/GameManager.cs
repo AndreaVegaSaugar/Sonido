@@ -30,17 +30,14 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     GameObject bloqueoPuerta2;
+    [SerializeField]
+    GameObject bloqueoPuerta1;
 
     // Aula 1
     [SerializeField]
     TextMeshProUGUI TextoAula1;
     [SerializeField]
     TextMeshProUGUI TextoAula2;
-
-    string[] colores = { "Rojo", "Azul", "Amarillo", "Verde" };
-    string colorTaquilla = "Rojo";
-
-
 
     // METODOS
     private void Awake()
@@ -74,6 +71,9 @@ public class GameManager : MonoBehaviour
 
             // Desactivo Bloqueo Puerta
             bloqueoPuerta2.SetActive(false);
+
+            TextoAula2.text = "Muy bien " + playerName + ". Ya puedes irte";
+
         }
     }
 
@@ -82,15 +82,26 @@ public class GameManager : MonoBehaviour
         objetosColocados--;
     }
 
+    public void StartAula2()
+    {
+        TextoAula2.text = "La sala de juegos esta hecha un desaste. " + playerName + ", guarda cada juguete en el cofre de su color.";
+    }
+
+
     // Aula 1
 
     public void StartAula1()
     {
         TextoAula1.text = "Cada uno tiene que poner sus cosas en la taquilla de su color. " + playerName + ", tu taquilla es la roja, ve a guardar tus cosas.";
     }
-
-    public void StartAula2()
+    public void FailAula1()
     {
-        TextoAula2.text = "La sala de juegos esta hecha un desaste. " + playerName + ", guarda cada juguete en el cofre de su color.";
+        TextoAula1.text = "Esa no es la taquilla correcta " + playerName + ". He dicho la taquilla roja";
+    }
+
+    public void CorrectAula1()
+    {
+        TextoAula1.text = "Perfecto  " + playerName + "! Ahora ve a la siguiente clase.";
+        bloqueoPuerta1.SetActive(false);
     }
 }

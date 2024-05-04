@@ -6,9 +6,15 @@ public class Taquilla : MonoBehaviour
 {
     void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Player")
+        Debug.Log(other.tag + " " + gameObject.tag);
+
+        if (other.tag == "Player" && gameObject.tag == "Rojo")
         {
-            Debug.Log("NOOOOOOO EL DALTONICO");
+            GameManager.Instance.CorrectAula1();
+        }
+        else if (other.tag == "Player" && gameObject.tag != "Rojo")
+        {
+            GameManager.Instance.FailAula1();
         }
     }
 }
